@@ -1,0 +1,9 @@
+label {
+  &::before {
+    background-color: #00AEEF !important;
+    border-color: #00AEEF !important;
+  }
+  &::after {
+    color: white !important;
+  }
+}

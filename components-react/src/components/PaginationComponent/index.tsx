@@ -1,9 +1,16 @@
 import * as React from 'react';
+import { Pagination } from 'semantic-ui-react'
+import {PaginationProps} from "semantic-ui-react";
+import 'semantic-ui-css/semantic.min.css'
+const styles = require('./index.scss');
 
-export const PaginationComponent = () => {
+interface Props extends PaginationProps {}
+
+export const PaginationComponent = (props: Props) => {
 
     return(
-        <div>
-        </div>
+            <Pagination {...props}>
+                {props.children}
+            </Pagination>
     )
 };

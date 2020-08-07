@@ -1,0 +1,22 @@
+div.ui.pagination.menu {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.ui.menu .item:before {
+  background: transparent !important;
+}
+
+.ui.menu .item{
+   color: #7189A3 !important;
+}
+
+
+.ui.menu .active.item  {
+    background: #7189A3 !important;
+    font-size: 14px;
+    color: #FFFFFF !important;
+  }
+
+
